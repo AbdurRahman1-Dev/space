@@ -1,0 +1,38 @@
+.bg {
+  height: 120vh;
+  width: 100%;
+  background-image: url("../../public/img/image-2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* .text-hero {
+  color: black;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+} */
+
+.text-hero {
+  -webkit-text-stroke: 1px #fff;
+  -webkit-text-fill-color: transparent;
+
+  /* fallback */
+  color: white;
+
+  /* for demo purpose */
+}
+
+.text-hero-s {
+  -webkit-text-stroke: 1px #8648ce;
+  -webkit-text-fill-color: transparent;
+
+  /* fallback */
+  color: rgba(255, 255, 255, 0);
+  font-family: monospace;
+  font-size: 250px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+
+  /* for demo purpose */
+}
