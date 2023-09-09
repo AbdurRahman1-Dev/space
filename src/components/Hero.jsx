@@ -19,7 +19,7 @@ const Hero = () => {
             <h1 className="text-8xl font-bold z-50">Go Beyond</h1>
             <p className="z-50">
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industrys standard dummy
+              industry. Lorem Ipsum has been the industry's standard dummy
             </p>
             <button className="px-16 rounded-xl py-3 bg-[#8846D2] z-50">
               Explore
