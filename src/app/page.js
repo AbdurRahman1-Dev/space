@@ -1,7 +1,9 @@
 "use client";
 
+import EarthP from "@/components/EarthP";
 import Hero from "@/components/Hero";
 import Mars from "@/components/Mars";
+
 import Planets from "@/components/models/Planets";
 
 const HomePage = () => {
@@ -22,8 +24,26 @@ const HomePage = () => {
               </p>
             </div>
             <div className="lg:w-1/2 ">
-              <Planets></Planets>
-              {/* <Mars /> */}
+              {/* <Planets></Planets> */}
+              <Mars />
+            </div>
+          </div>
+        </div>
+        <div className="">
+          <h3 className="text-4xl text-center font-bold text">The Earth</h3>
+          <div className="lg:flex gap-4 items-center container mx-auto flex-row-reverse">
+            <div className="lg:w-1/2">
+              <p className="text-xl text ">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Tempora officiis voluptatibus qui earum, saepe eveniet eum, non
+                molestias, reprehenderit necessitatibus tempore adipisci!
+                Nesciunt deserunt quo, maiores tempore mollitia corrupti dolores
+                laudantium
+              </p>
+            </div>
+            <div className="lg:w-1/2 ">
+              {/* <Planets></Planets> */}
+              <EarthP />
             </div>
           </div>
         </div>

@@ -3,24 +3,25 @@ import { Canvas, useFrame } from "@react-three/fiber";
 import React, { useRef } from "react";
 
 import { PresentationControls, Stage } from "@react-three/drei";
-import { MarsP } from "./models/MarsP";
+import { EarthM } from "./models/EarthM";
 
-const Mars = () => {
+const EarthP = () => {
   return (
     <Canvas
       resize={false}
       shadows
-      dpr={[1, 2]}
+      dpr={[3, 4]}
+      position={[1, 2, 3]}
       camera={{ fov: 45 }}
       style={{ height: "400px", position: "relative" }}
     >
-      <PresentationControls speed={1.5} global={false}>
-        <Stage shadows={false} environment={"park"}>
-          <MarsP />
+      <PresentationControls scale={false} speed={1.5} global={false}>
+        <Stage scale={false} shadows={false} environment={"park"}>
+          <EarthM />
         </Stage>
       </PresentationControls>
     </Canvas>
   );
 };
 
-export default Mars;
+export default EarthP;

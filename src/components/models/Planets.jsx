@@ -12,7 +12,7 @@ const Planets = () => {
       modelref.current.rotation.y += 0.0005;
     });
 
-    const { scene } = useGLTF("./mars.glb");
+    const { scene } = useGLTF("./earth.glb");
     return <primitive ref={modelref} object={scene} {...props} />;
   }
 
@@ -28,7 +28,7 @@ const Planets = () => {
 
       <PresentationControls speed={1.5} global={false}>
         <Stage shadows={false} environment={"park"}>
-          <Model />
+          <Model resize={false} />
         </Stage>
       </PresentationControls>
     </Canvas>
