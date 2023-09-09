@@ -39,7 +39,7 @@ const Hero = () => {
           <Image src={ship} alt="ship"></Image>
         </div>
       </div>
-      <div className="absolute -bottom-2 right-[25%]  ">
+      <div className="absolute -bottom-2 right-[25%] animate-pulse ">
         <Image src={fall} alt="ship"></Image>
       </div>
       <div className="absolute -bottom-5 right-0 ">
